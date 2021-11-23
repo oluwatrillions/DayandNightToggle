@@ -1,0 +1,49 @@
+.container {
+  width: 99vw;
+  height: 97vh;
+  background: rgb(66, 58, 58);
+  margin: 0;
+  box-sizing: border-box;
+  position: relative;
+}
+
+.toggle {
+  width: 53px;
+  height: 30px;
+  background: rgb(14, 12, 12);
+  position: absolute;
+  border-radius: 12px;
+  top: 45%;
+  left: 45%;
+}
+
+.images {
+  display: flex;
+  justify-content: space-between;
+}
+
+img {
+  width: 25px;
+  height: 25px;
+  margin-top: 2px;
+}
+
+.ball {
+  width: 25px;
+  height: 25px;
+  background: rgb(236, 222, 15);
+  border-radius: 50%;
+  position: absolute;
+  top: 2px;
+  left: 0;
+  transition: transform 0.2s linear;
+}
+
+.ballToggle {
+  transform: translateX(27.3px);
+  background: rgb(61, 49, 47);
+}
+
+.lightMode {
+  background: rgb(197, 197, 105);
+}
