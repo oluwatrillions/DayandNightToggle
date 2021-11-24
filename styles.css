@@ -12,7 +12,7 @@
   height: 30px;
   background: rgb(14, 12, 12);
   position: absolute;
-  border-radius: 12px;
+  border-radius: 15px;
   top: 45%;
   left: 45%;
 }
@@ -26,6 +26,12 @@ img {
   width: 25px;
   height: 25px;
   margin-top: 2px;
+}
+
+.images .moon {
+  width: 22px;
+  height: 23px;
+  margin-right: 1px;
 }
 
 .ball {
